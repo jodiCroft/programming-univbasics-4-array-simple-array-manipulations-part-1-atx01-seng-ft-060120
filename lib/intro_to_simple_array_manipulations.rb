@@ -17,8 +17,7 @@ def pop_with_args(array)
 end
 
 def using_shift(array)
-  my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Fransisco", "Gabrone", "New York", "Berlin", "London"]
-  @my_favorite_cities.shift
+  array.shift
 end
 
 
